@@ -1,0 +1,31 @@
+.cabecera__container{
+    background: var(--background--linea);
+}
+
+.cabecera__link{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera__link__li{
+    margin: 2% 3%;
+}
+
+.cabecera__link__item{
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.cabecera__link__item:hover{
+    
+    color: black;
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
