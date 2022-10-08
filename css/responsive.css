@@ -1,3 +1,31 @@
+@media only screen and (max-width: 950px) {
+
+    .inicio__presentacion{
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .inicio__container{
+        flex-direction: column;
+    }
+
+    .habilidades__titulo__habilidades{
+        flex-direction: column;
+
+    }
+
+    .habilidades__container_item{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .habilidades__titulo{
+        margin-top: 2%;
+        text-align: center;
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .about__container__texto{
@@ -12,27 +40,53 @@
     }
 }
 
-@media only screen and (max-width: 950px) {
-
-    .inicio__presentacion{
-        width: 100%;
-        margin: 2%;
-    }
-
-    .inicio__container{
-        flex-direction: column;
-    }
-
-    .habilidades__titulo__habilidades{
-        flex-direction: column;
-    }
-}
-
 @media only screen and (max-width: 600px) {
+
+    .inicio__presentacion_nombre{
+        font-size: 100px;
+    }
+
+    .imagenPerfil{
+        height: 80%;
+        width: 80%;
+    }
+
     .about__container__texto{
         flex-direction: column;
     }
 }
 
+@media only screen and (max-width: 444px) {
+    .inicio__presentacion_nombre,.about__texto__titulo{
+        font-size: 80px;
+    }
 
+    .habilidades__titulo{
+        font-size: 50px;
+        
+    }
+
+    .about__texto__titulo{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .cabecera__link__item{
+        font-size: 15px;
+    }
+
+    .inicio__presentacion_nombre, .about__texto__titulo{
+        font-size: 60px;
+    }
+
+    .inicio__presentacion_descripcion{
+        font-size: 30px;
+    }
+
+    .habilidades__titulo{
+        font-size: 40px;
+    }
+}
 
