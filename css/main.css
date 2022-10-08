@@ -15,7 +15,7 @@
 .inicio__presentacion_titulo{
     
     font-size: 30px;
-    color: white;
+    color: var(--color-letras);
     background: var(--background--linea);
     padding: 8px;
     border-radius: 10px;
@@ -35,7 +35,7 @@
 
 .inicio__presentacion_descripcion{
     font-style: italic;
-    color: #6f6f6f;
+    color: var(--color-letras--inicio);
     font-size: 40px;
 }
 
@@ -77,6 +77,8 @@
     text-align: justify;
     width: 50%;
     margin-top: 5%;
+    margin-right: 5%;
+    color: var(--color-letras--habilidades);
 }
 
 /*HABILIDADES*/
@@ -92,15 +94,45 @@
     align-items: center;
     justify-content: center;
     font-size: 60px;
-    color: white;
+    color: var(--color-letras);
 }
 
 .habilidades__titulo{
     width: 50%;
+    text-align: center;
 }
 
 .habilidades__container_item{
     display: flex;
+    flex-wrap: wrap;
+    width: 50%;
 }
+
+.habilidades_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: var(--color-letras);
+    border-radius: 15px;
+    max-width: 20%;
+    font-size: 30px;
+    margin: 5% 1%;
+}
+
+.habilidades_item_imagen{
+    width: 50%;
+    padding: 8px;
+}
+
+.habilidades_item_titulo{
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 8px;
+    color: var(--color-letras--habilidades);
+
+}
+
 
 /*PROYECTOS*/

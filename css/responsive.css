@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 768px) {
+    .about__container__texto{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__texto__titulo,.about__texto__mensaje{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .inicio__presentacion{
+        width: 100%;
+        margin: 2%;
+    }
+
+    .inicio__container{
+        flex-direction: column;
+    }
+
+    .habilidades__titulo__habilidades{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about__container__texto{
+        flex-direction: column;
+    }
+}
+
+
+

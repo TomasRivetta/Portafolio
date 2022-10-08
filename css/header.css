@@ -16,7 +16,7 @@
 .cabecera__link__item{
 
     text-decoration: none;
-    color: white;
+    color: var(--color-letras);
     font-size: 20px;
 
 }
@@ -25,7 +25,7 @@
     
     color: black;
     padding: 5px 15px;
-    background-color: white;
+    background-color: var(--color-letras);
     border-radius: 15px;
     transition: all 0.3s ease;
 }

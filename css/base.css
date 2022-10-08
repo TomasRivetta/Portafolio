@@ -3,6 +3,12 @@
     --nunito-font: 'Nunito', sans-serif;
 
     --background--linea: linear-gradient(#1d2d44,#4a4e69);
+
+    --color-letras: white;
+
+    --color-letras--inicio:#6f6f6f;
+
+    --color-letras--habilidades: black; 
 }
 
 body{
