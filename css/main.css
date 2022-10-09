@@ -135,3 +135,30 @@
 
 
 /*PROYECTOS*/
+
+.proyectos__container{
+    display: flex;
+
+}
+
+.proyectos__container__titulo{
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+    font-size: 5rem;
+}
+
+.proyecto__titulo{
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    background: var(--background--linea);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.proyectos__container__proyecto{
+    
+}
