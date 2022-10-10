@@ -63,6 +63,9 @@
 }
 
 .about__texto__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
     text-align: center;
     font-size: 120px;
@@ -72,6 +75,18 @@
     -webkit-background-clip: text;
     margin-top: 5%;
 }
+
+.boton__descarga_cv{
+    margin-top: 8%;
+    background: var(--background--linea);
+    border-radius: 12px;
+}
+
+.about__texto__botonCV{
+    text-decoration: none;
+    color: var(--color-letras);
+}
+
 
 .about__texto__mensaje{
     text-align: justify;
