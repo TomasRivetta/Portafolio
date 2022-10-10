@@ -83,8 +83,12 @@
 }
 
 .about__texto__botonCV{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--color-letras);
+    font-family: var(--nunito-font); 
+    padding: 3%;
 }
 
 
@@ -174,6 +178,7 @@
 
 }
 
+/*
 .proyectos__container__proyecto{
     
-}
+}*/
