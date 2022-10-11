@@ -1,18 +1,31 @@
-.cabecera__link{
+.cabecera__nav{
     
     background-color: rgba(0,0,0,0.70);
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     position: fixed;
     width: 100%;
     z-index: 999;
 
 }
 
+.contenedor_imagen__logo{
+    display: flex;
+}
+
+.imagen__logo{
+    width: 15%;
+    height: 10%;
+}
+
+.cabecera__link{
+    display: flex;
+    margin-right: 10%;
+}
+
 .cabecera__link__li{
-    margin: 1.6% 3%;
+    margin-right: 6%;
 }
 
 .cabecera__link__item{
@@ -29,5 +42,9 @@
     padding: 5px 15px;
     background-color: var(--color-letras);
     border-radius: 15px;
-    transition: all 0.3s ease;
+    transition: all 0.6s ease;
+}
+
+.open-menu,.close-menu{
+    display: none;
 }

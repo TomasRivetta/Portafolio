@@ -28,8 +28,18 @@
     
     <header class="cabecera__container">
         <nav class="cabecera__nav">
-            <img>
+            <!--LOGO-->
+            <div class="contenedor_imagen__logo">
+                <img src="img/logoTR.png" class="imagen__logo">
+            </div>
+            <!--MENU-->
+            <button class="open-menu" aria-label="Abrir menu">
+                <img src="img/menú.svg" alt="abrir menu">
+            </button>
             <ul class="cabecera__link">
+                <button class="close-menu" aria-label="Cerrar menu">
+                    <img src="img/menuClose.svg" alt="cerrar menu" class="imagenMenuClose">
+                </button>
                 <li class="cabecera__link__li"><a class="cabecera__link__item" href="#ini">Inicio</a></li>
                 <li class="cabecera__link__li"><a class="cabecera__link__item" href="#about">About</a></li>
                 <li class="cabecera__link__li"><a class="cabecera__link__item" href="#proyectos">Proyectos</a></li>
@@ -38,8 +48,8 @@
         </nav>
     </header>
     <main>
-        <section class="inicio__container" id="ini">
-            <div class="inicio__presentacion">
+        <section class="inicio__container">
+        <div class="inicio__presentacion" id="ini">
                 <h2 class="inicio__presentacion_titulo">Hola! YO SOY</h2>
                 <h1 class="inicio__presentacion_nombre">TOMÁS RIVETTA</h1>
                 <p class="inicio__presentacion_descripcion">Full Stack Developer</p>
@@ -248,5 +258,6 @@
     <footer>
         <!--aca voy a colocar un contacta conmigo, mi telegram, mail y capaz whatsapp-->
     </footer>
+    <script defer src="js/app.js"></script>
 </body>
 </html>
