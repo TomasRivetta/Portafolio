@@ -76,16 +76,20 @@
     margin-top: 5%;
 }
 
+.boton__descarga{
+    text-decoration: none;
+}
+
 .boton__descarga_cv{
+    margin-top: 30%;
+    display: flex;
     cursor: pointer;
-    margin-top: 8%;
     background: var(--background--linea);
     border-radius: 12px;
+    padding: 10% 20%;
 }
 
 .about__texto__botonCV{
-    display: flex;
-    align-items: center;
     text-decoration: none;
     color: var(--color-letras);
     font-family: var(--nunito-font); 
@@ -162,7 +166,7 @@
 }
 
 .proyectos__container__titulo{
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: center;
     width: 100%;
     font-size: 5rem;

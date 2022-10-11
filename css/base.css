@@ -15,11 +15,9 @@ html{
     scroll-behavior: smooth;
 }
 
-/*
-DEJA UN MARGIN TOP CUANDO HAGO SCROLL HACIA ABAJO
 div[id]{
     scroll-margin-top: 50px;
-}*/
+}
 
 body{
     font-family: var(--nunito-font);
