@@ -2,7 +2,7 @@
 
     .inicio__presentacion{
         width: 100%;
-        margin: 2% 0;
+        margin: 10% 0;
     }
 
     .inicio__container{
@@ -46,9 +46,9 @@
 
         opacity: 0;
         pointer-events: none;
-        transition: opacity 0.3s;
+        transition: opacity 0.4s;
 
-        background-color: rgba(0,0,0,0.70);
+        background: var(--background--linea);
         
     }
     
@@ -58,7 +58,7 @@
     
     .cabecera__link__item{
         top: 50px;
-        line-height: 60px;
+        line-height: 100px;
     }
 
     .open-menu,.close-menu{
@@ -128,6 +128,11 @@
 }
 
 @media only screen and (max-width: 444px) {
+
+    .imagen__logo{
+        width: 25%;
+    }
+
     .inicio__presentacion_nombre,.about__texto__titulo{
         font-size: 80px;
     }
@@ -143,6 +148,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    .imagen__logo{
+        width: 30%;
+    }
 
     .cabecera__link__item{
         font-size: 15px;
