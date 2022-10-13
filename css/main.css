@@ -99,11 +99,14 @@
 
 
 .about__texto__mensaje{
-    text-align: justify;
     width: 50%;
     margin-top: 5%;
     margin-right: 5%;
+}
+
+.about__texto__mensaje--mensaje{
     color: var(--color-letras--habilidades);
+    text-align: justify;
 }
 
 /*HABILIDADES*/
@@ -167,7 +170,7 @@
 }
 
 .proyectos__container__titulo{
-    margin-top: 8%;
+    margin-top: 3%;
     text-align: center;
     width: 100%;
     font-size: 5rem;

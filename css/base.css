@@ -16,8 +16,8 @@ html{
 }
 
 
-div[id]{
-    scroll-margin-top: 40px;
+section[id]{
+    scroll-margin-top: 75px;
 }
 
 body{
