@@ -208,7 +208,6 @@
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 0 15px 25px rgba(0,0,0,0.50);
-    cursor: pointer;
 }
 
 .contenedorProyecto figure img{
@@ -222,7 +221,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 103, 123, 0.5);
+    background: rgba(0, 103, 123, 0.8);
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
@@ -244,18 +243,31 @@
 }
 
 .contenedorProyecto figure .capaProyecto h3{
-    color: white;
+    font-size: 20px;
+    color: var(--color-letras);
     font-weight: 400;
-    margin-bottom: 120px;
     transition: all 500ms ease-out;
     margin-top: 30px;
+    margin-bottom: 160px;
 }
 
 .contenedorProyecto figure .capaProyecto p{
-    color: white;
-    font-size: 15px;
+    color: var(--color-letras);
+    font-size: 17px;
     line-height: 1.5;
     width: 100%;
     max-width: 220px;
     margin: auto;
+}
+
+.proyectos__boton{
+    background: var(--background--linea);
+    margin-top: 6%;
+}
+
+.proyectos__boton--texto{
+    color: var(--color-letras);
+    font-family: var(--nunito-font);
+    font-size: 15px;
+    text-decoration: none;
 }
