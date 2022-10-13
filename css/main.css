@@ -69,20 +69,22 @@
     align-items: center;
     width: 50%;
     text-align: center;
-    font-size: 120px;
     background: var(--background--linea);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
     margin-top: 5%;
 }
+.about__texto__titulo--texto{
+    font-size: 120px;
+}
 
 .boton__descarga{
     text-decoration: none;
+    margin-top: 5%;
 }
 
 .boton__descarga_cv{
-    margin-top: 30%;
     display: flex;
     cursor: pointer;
     background: var(--background--linea);
