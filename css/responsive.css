@@ -121,6 +121,18 @@
     .contenedorProyecto{
         width: 80%;
     }
+
+    .contacto__container--principal{
+        flex-direction: column;
+    }
+
+    .contacto__container--titulo{
+        margin: 3% 0 2% 0;
+    }
+
+    .contacto__container__contactos,.contacto__container--titulo{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -184,6 +196,10 @@
 
     .cabecera__link__item{
         font-size: 15px;
+    }
+
+    .about__texto__titulo--texto{
+        font-size: 60px;
     }
 
     .inicio__presentacion_nombre, .about__texto__titulo{
