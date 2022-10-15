@@ -35,15 +35,14 @@
     color: var(--color-letras);
     font-size: 20px;
     transition: all 0.6s ease;
+    border-radius: 15px;
 
 }
 
 .cabecera__link__item:hover{
-    
     color: black;
     padding: 5px 15px;
     background-color: var(--color-letras);
-    border-radius: 15px;
 }
 
 .open-menu,.close-menu{
