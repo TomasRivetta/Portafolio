@@ -136,7 +136,65 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     width: 50vw;
+    
 }
+
+.habilidades_item--html{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.habilidades_item--css{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.habilidades_item--javaScript{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.habilidades_item--python{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.habilidades_item--cSharp{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.habilidades_item--git{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.habilidades_item--django{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.habilidades_item--net{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.habilidades_item--sqlServer{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.habilidades_item--postman{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.habilidades_item--figma{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
 
 .habilidades_item{
     display: flex;
