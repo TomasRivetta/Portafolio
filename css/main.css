@@ -397,3 +397,18 @@
 
 /*Footer*/
 
+.footer{
+    background: var(--background--linea);
+    text-align: center;
+    color: var(--color-letras);
+    padding: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--color-letras);
+}
+
+.footer a:hover{
+    color: black;
+}
