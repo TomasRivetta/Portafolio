@@ -43,7 +43,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 5.5%;
+    width: 50vw;
 }
 
 .imagenPerfil{
@@ -60,7 +61,6 @@
 
 .about__container__texto{
     display: flex;
-    width: 100vw;
 }
 
 .about__texto__titulo{
@@ -90,7 +90,7 @@
     cursor: pointer;
     background: var(--background--linea);
     border-radius: 12px;
-    padding: 12%;
+    align-items: center;
 }
 
 .about__texto__botonCV{
@@ -108,6 +108,7 @@
 .about__texto__mensaje--mensaje{
     color: var(--color-letras--habilidades);
     text-align: justify;
+
 }
 
 /*HABILIDADES*/
@@ -193,8 +194,6 @@
     grid-column: 3/4;
     grid-row: 3/4;
 }
-
-
 
 .habilidades_item{
     display: flex;
@@ -283,7 +282,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 103, 123, 0.8);
+    background: rgba(64, 76, 78, 0.8);
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
