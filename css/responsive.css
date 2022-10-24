@@ -127,7 +127,7 @@
         width: 80%;
     }
 
-    .contacto__container--principal{
+    .contacto__container--principal,.contacto__container--formulario{
         flex-direction: column;
     }
 
@@ -138,6 +138,11 @@
     .contacto__container__contactos,.contacto__container--titulo{
         width: 100%;
     }
+
+    .habilidades__titulo__habilidades{
+        font-size: 80px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -155,9 +160,15 @@
         width: 80%;
     }
 
+    .habilidades__titulo__habilidades{
+        font-size: 60px;
+    }
+
     .about__container__texto{
         flex-direction: column;
     }
+
+
 
     .proyecto__titulo{
         font-size: 65px;
@@ -221,6 +232,10 @@
 
     .proyecto__titulo{
         margin-top: 5%;
+        font-size: 50px;
+    }
+
+    .contacto__container--titulo{
         font-size: 50px;
     }
 }
