@@ -50,8 +50,9 @@
     }
 
     .imagenMenuClose{
-        width: 80%;
-        height: 100%;
+        margin: 2% 1%;
+        /* width: 80%;
+        height: 100%; */
     }
 
     .cabecera__link{
@@ -68,7 +69,7 @@
         pointer-events: none;
         transition: opacity 0.4s;
 
-        background: var(--background--linea);
+        background: var(--background--pagina);
         
     }
     
@@ -121,6 +122,10 @@
         flex-direction: column;
         align-items: center;
         
+    }
+
+    .proyecto__titulo{
+        font-size: 6rem;
     }
 
     .contenedorProyecto{

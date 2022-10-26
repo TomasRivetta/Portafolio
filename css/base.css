@@ -2,13 +2,15 @@
 
     --nunito-font: 'Nunito', sans-serif;
 
-    --background--linea: linear-gradient(#1d2d44,#4a4e69);
+    --background--linea: linear-gradient(#4c5e67,#65747b);
 
     --color-letras: #fdfdfd;
 
     --color-letras--inicio:#6f6f6f;
 
-    --color-letras--habilidades: black; 
+    --color-letras--habilidades: black;
+
+    --background--pagina: linear-gradient(#0b132b,#1c2541,#3a506b)
 }
 
 html{
@@ -22,5 +24,5 @@ section[id]{
 
 body{
     font-family: var(--nunito-font);
-    background-color: #101d2b;
+    background: var(--background--pagina);
 }

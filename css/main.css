@@ -67,6 +67,7 @@
 
 .about__container__texto{
     display: flex;
+    margin-bottom: 1%;
 }
 
 .about__texto__titulo{
@@ -79,7 +80,7 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .about__texto__titulo--texto{
@@ -88,13 +89,14 @@
 
 .boton__descarga{
     text-decoration: none;
-    margin-top: 5%;
+
 }
 
 .boton__descarga_cv{
     display: flex;
     cursor: pointer;
-    background: var(--background--linea);
+    /* background: var(--background--linea); */
+    background: var(--background--pagina);
     border-radius: 12px;
     align-items: center;
     transition: all 500ms ease;     
@@ -118,7 +120,7 @@
 
 .about__texto__mensaje{
     width: 50vw;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-right: 1%;
     margin-left: 1%;
 }
@@ -126,7 +128,9 @@
 .about__texto__mensaje--mensaje{
     color: var(--color-letras--habilidades);
     text-align: justify;
-
+    border-radius: 12px;
+    background: white;
+    padding: 2%;
 }
 
 /*HABILIDADES*/
@@ -141,6 +145,7 @@
     justify-content: center;
     font-size: 80px;
     color: var(--color-letras);
+    margin-bottom: 0.5%;
 }
 
 .habilidades__titulo{
@@ -218,7 +223,7 @@
     flex-direction: column;
     background: var(--color-letras);
     border-radius: 15px;
-    margin: 10% 5%;
+    margin: 3% 5%;
     transition: all 500ms ease;
 }
 
@@ -250,15 +255,13 @@
 
 .proyectos__container__titulo{
     margin-top: 3%;
-    text-align: center;
     width: 100%;
-    font-size: 5rem;
 }
 
 .proyecto__titulo{
     width: 100%;
     text-align: center;
-    font-size: 5rem;
+    font-size: 7rem;
     background: var(--background--linea);
     color: transparent;
     background-clip: text;
