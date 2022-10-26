@@ -26,6 +26,14 @@
 }
 
 .inicio__presentacion_nombre{
+
+    /* display: block;
+    white-space: wrap;
+    border-right: 4px solid;
+    width: 12ch;
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+    overflow: hidden; */
+
     margin: 5% 2%;
     text-align: center;
     color: transparent;
@@ -35,6 +43,14 @@
     background-clip: text;
     -webkit-background-clip: text;
 }
+
+/* @keyframes typing{
+    from { width: 0;}
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+} */
 
 .inicio__presentacion_descripcion{
     font-style: italic;

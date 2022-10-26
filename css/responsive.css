@@ -49,11 +49,11 @@
         margin: 12% 0;
     }
 
-    .imagenMenuClose{
+    /* .imagenMenuClose{
         margin: 2% 1%;
         /* width: 80%;
-        height: 100%; */
-    }
+        height: 100%;
+    } */
 
     .cabecera__link{
         flex-direction: column;
@@ -93,6 +93,8 @@
     .close-menu{
         align-self: flex-end;
         padding: 0 0;
+        margin: 5% 2%;
+
     }
 
     .menu_opened{
