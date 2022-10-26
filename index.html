@@ -35,12 +35,30 @@
             <!--MENU-->
             <button class="open-menu" aria-label="Abrir menu">
                 
-                <img src="img/menú.svg" alt="abrir menu">
+                <!-- <img src="img/menú.svg" alt="abrir menu"> -->
+                <svg alt="abrir menu" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                    
+                </svg>
             </button>
 
             <ul class="cabecera__link">
                 <button class="close-menu" aria-label="Cerrar menu">
-                    <img src="img/menuClose.svg" alt="cerrar menu" class="imagenMenuClose">
+                    <!-- <img src="img/menuClose.svg" alt="cerrar menu" class="imagenMenuClose"> -->
+                    <svg alt="cerrar menu" class="imagenMenuClose" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-minimize" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <polyline points="5 9 9 9 9 5" />
+                        <line x1="3" y1="3" x2="9" y2="9" />
+                        <polyline points="5 15 9 15 9 19" />
+                        <line x1="3" y1="21" x2="9" y2="15" />
+                        <polyline points="19 9 15 9 15 5" />
+                        <line x1="15" y1="9" x2="21" y2="3" />
+                        <polyline points="19 15 15 15 15 19" />
+                        <line x1="15" y1="15" x2="21" y2="21" />
+                    </svg>
                 </button>
                 <li class="cabecera__link__li"><a class="cabecera__link__item" href="#ini">Inicio</a></li>
                 <li class="cabecera__link__li"><a class="cabecera__link__item" href="#about">About</a></li>
@@ -312,32 +330,31 @@
                 <div class="contacto__formulario--container">
 
                     <form action="" class="contacto__formulario">
-                        <div>
-                            <label>
 
+                        <div>
+                            <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
+                            <label for="nombre">
+                                Nombre
                             </label>
-                            <input>
                         </div>
 
                         <div>
-                            <label>
-
+                            <input name="email" id="email" type="email" placeholder="Email" required>
+                            <label for="email">
+                                Email
                             </label>
-                            <input>
                         </div>
 
                         <div>
-                            <label>
-
+                            <input name="asunto" id="asunto" type="text" placeholder="Asunto" required>
+                            <label for="asunto">
+                                Asunto
                             </label>
-                            <input>
                         </div>
 
                         <div>
-                            <label>
-
-                            </label>
-                            <textarea>
+                            <input name="mensaje" id="mensaje" type="text" placeholder="Mensaje" required>
+                            <textarea placeholder="Mensaje">
 
                             </textarea>
                         </div>
