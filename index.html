@@ -192,7 +192,7 @@
                         <div class="capaProyecto">
                             <h3>🔒Encriptador de texto🔓</h3>
                             <p>HTML || CSS || JavaScript</p>
-                            <button class="proyectos__boton"><a class="proyectos__boton--texto" href="https://tomasrivetta.github.io/Challenge-1-Encriptador-y-Desencriptador/">🌎Web demo</a></button>
+                            <button class="proyectos__boton"><a class="proyectos__boton--texto" href="https://tomasrivetta.github.io/Challenge-1-Encriptador-y-Desencriptador/" target="_blank">🌎Web demo</a></button>
                             <button class="proyectos__boton"><a class="proyectos__boton--texto" href="https://github.com/TomasRivetta/Challenge-1-Encriptador-y-Desencriptador" target="_blank">💼Repositorio</a></button>
                         </div>
                     </figure>
@@ -301,37 +301,44 @@
 
                 <div class="contacto__formulario--container">
 
-                    <form action="" class="contacto__formulario">
+                    <form class="form">
 
-                        <div>
-                            <input name="nombre" id="nombre" type="text" placeholder="Nombre" required>
-                            <label for="nombre">
-                                Nombre
-                            </label>
+                        <div class="form__container">
+                            <div class="form__group">
+
+                                <input type="text" id="nombre" class="form__input" placeholder=" ">
+                                <label for="nombre" class="form__label">Nombre: </label>
+                                <span class="form__line"></span>
+
+                            </div>
+
+                            <div class="form__group">
+
+                                <input type="email" id="email" class="form__input" placeholder=" ">
+                                <label for="email" class="form__label">Email: </label>
+                                <span class="form__line"></span>
+
+                            </div>
+
+                            <div class="form__group">
+
+                                <input type="text" id="asunto" class="form__input" placeholder=" ">
+                                <label for="asunto" class="form__label">Asunto: </label>
+                                <span class="form__line"></span>
+
+                            </div>
+
+                            <div class="form__group">
+
+                                <input type="text" id="mensaje" class="form__input" placeholder=" ">
+                                <label for="mensaje" class="form__label">Mensaje: </label>
+                                <span class="form__line"></span>
+
+                            </div>
+
+                            <input type="submit" class="form__submit" value="Enviar">
+
                         </div>
-
-                        <div>
-                            <input name="email" id="email" type="email" placeholder="Email" required>
-                            <label for="email">
-                                Email
-                            </label>
-                        </div>
-
-                        <div>
-                            <input name="asunto" id="asunto" type="text" placeholder="Asunto" required>
-                            <label for="asunto">
-                                Asunto
-                            </label>
-                        </div>
-
-                        <div>
-                            <input name="mensaje" id="mensaje" type="text" placeholder="Mensaje" required>
-                            <textarea placeholder="Mensaje">
-
-                            </textarea>
-                        </div>
-
-                        <button>Enviar Mensaje</button>
 
                     </form>
 
