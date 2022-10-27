@@ -306,7 +306,7 @@
                         <div class="form__container">
                             <div class="form__group">
 
-                                <input type="text" id="nombre" class="form__input" placeholder=" " name="name">
+                                <input type="text" id="nombre" class="form__input" placeholder=" " name="name" required>
                                 <label for="nombre" class="form__label">Nombre: </label>
                                 <span class="form__line"></span>
 
@@ -314,7 +314,7 @@
 
                             <div class="form__group">
 
-                                <input type="email" id="email" class="form__input" placeholder=" " name="email">
+                                <input type="email" id="email" class="form__input" placeholder=" " name="email" required>
                                 <label for="email" class="form__label">Email: </label>
                                 <span class="form__line"></span>
 
@@ -330,13 +330,18 @@
 
                             <div class="form__group">
 
-                                <input type="text" id="mensaje" class="form__input" placeholder=" " name="comments">
+                                <input type="text" id="mensaje" class="form__input" placeholder=" " name="comments" required>
                                 <label for="mensaje" class="form__label">Mensaje: </label>
                                 <span class="form__line"></span>
 
                             </div>
 
                             <input type="submit" class="form__submit" value="Enviar">
+
+                            <!--La linea de abajo sirve para que cuando haga el captcha me reenvie a la pagina directamente-->
+                            <input type="hidden" name="_next" value="https://tomasrivetta.github.io/Portafolio/">
+                            <!--La linea de abajo sirve para evitar el captcha-->
+                            <!--<input type="hidden" name="_captcha" value="false">-->
 
                         </div>
 
