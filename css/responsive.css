@@ -138,6 +138,11 @@
         flex-direction: column;
     }
 
+
+    .contacto__formulario--container{
+        width: 80%;
+    }
+
     .contacto__container--titulo{
         margin: 3% 0 2% 0;
     }
