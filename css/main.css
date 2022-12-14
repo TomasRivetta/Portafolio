@@ -287,6 +287,7 @@
 .proyectos__container__main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contenedorProyecto{
@@ -369,6 +370,27 @@
     text-decoration: none;
 }
 
+.contenerBtnMasProye{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3%;
+    transition: all 500ms ease;
+    
+}
+
+.btnMasProyectos{
+    padding: 1%;
+    text-decoration: none;
+    color: var(--color-letras);
+    font-family: var(--nunito-font); 
+    background: var(--background--linea);
+    border-radius: 12px;
+    
+}
+
+.contenerBtnMasProye:hover{
+    transform: scale(1.1);
+}
 
 /*CONTACTO*/
 
