@@ -88,40 +88,42 @@
     grid-row: 1/2;
 }
 
-.habilidades_item--python {
+.habilidades_item--cSharp {
     grid-column: 4/5;
     grid-row: 1/2;
 }
 
-.habilidades_item--cSharp {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-.habilidades_item--git {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.habilidades_item--django {
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
-
 .habilidades_item--net {
-    grid-column: 4/5;
+    grid-column: 1/2;
     grid-row: 2/3;
 }
 
 .habilidades_item--sqlServer {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.habilidades_item--postman {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.habilidades_item--git {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.habilidades_item--python {
     grid-column: 1/2;
     grid-row: 3/4;
 }
 
-.habilidades_item--postman {
+.habilidades_item--django {
     grid-column: 2/3;
     grid-row: 3/4;
 }
+
+
 
 .habilidades_item--figma {
     grid-column: 3/4;
@@ -168,7 +170,6 @@
 }
 
 .proyecto__titulo {
-    width: 100%;
     text-align: center;
     color: black;
     background-clip: text;
