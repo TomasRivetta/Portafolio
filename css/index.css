@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+@import url(base.css);
+
+@import url(css-secciones/header.css);
+@import url(css-secciones/main.css);
+@import url(css-secciones/footer.css);
+@import url(css-secciones/responsive.css);

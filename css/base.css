@@ -1,16 +1,13 @@
 :root{
+    --background-page: #ffffff;
 
-    --nunito-font: 'Nunito', sans-serif;
+    --background-section: #6E07F3;
 
-    --background--linea: linear-gradient(#4c5e67,#65747b);
+    --font-prompt: 'Prompt', sans-serif;
 
-    --color-letras: #fdfdfd;
+    --color-white: #ffffff;
 
-    --color-letras--inicio:#6f6f6f;
-
-    --color-letras--habilidades: black;
-
-    --background--pagina: linear-gradient(#0b132b,#1c2541,#3a506b)
+    --color-footer_link: #6E07F3;
 }
 
 html{
@@ -23,6 +20,6 @@ section[id]{
 }
 
 body{
-    font-family: var(--nunito-font);
-    background: var(--background--pagina);
+    font-family: var(--font-prompt);
+    background: var(--background--page);
 }
