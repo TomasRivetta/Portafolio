@@ -51,8 +51,6 @@
 
 
 
-/* NUEVO CSS*/
-
 .container__header__nav {
     display: flex;
     justify-content: space-between;
@@ -70,14 +68,14 @@
     justify-content: space-evenly;
 }
 
-li>a {
+.nav-li>.nav-option {
     text-decoration: none;
     color: var(--color-letra-nav);
     font-family: var(--font-dm-sans);
     font-weight: bold;
 }
 
-li {
+.nav-li {
     list-style: none;
     display: inline;
     font-size: 20px;
@@ -86,7 +84,7 @@ li {
 }
 
 .selected,
-li:hover {
+.nav-li:hover {
     border-bottom: 2px solid var(--color-letra-nav);
     padding-bottom: 3px;
 }
