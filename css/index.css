@@ -1,6 +1,6 @@
-@import url(reset.css);
+@import url(./base/reset.css);
 
-@import url(base.css);
+@import url(./base/base.css);
 
 @import url(css-secciones/header.css);
 @import url(css-secciones/main.css);
