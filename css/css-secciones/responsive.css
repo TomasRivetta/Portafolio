@@ -1,5 +1,13 @@
 @media screen and (max-width: 768px) {
 
+    .container__inicio{
+        flex-direction: column;
+    }
+
+    .container__inicio-text{
+        text-align: center;
+    }
+
     .open-menu,
     .close-menu {
         display: block;
@@ -29,6 +37,23 @@
     .open-menu:focus:not(:focus-visible),
     .close-menu:focus:not(:focus-visible) {
         outline: none;
+    }
+
+    .container__about_me{
+        width: 100%;
+        text-align: center;
+    }
+
+    .habilidades__container_item{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 425px){
+    .habilidades__container_item{
+        grid-template-rows: repeat(auto, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
