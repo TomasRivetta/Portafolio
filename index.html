@@ -1,317 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomas Rivetta</title>
+    <title>Tomas Rivetta Portfolio</title>
 
-    <!--CSS-->
     <link rel="stylesheet" href="css/index.css">
 
-    <!--ICONO-->
-    <link rel="icon" type="image/png" href="img/iconos/portfolio.png" />
+    <link rel="shortcut icon" href="img/iconos/codificacion.png" type="image/x-icon">
+
 </head>
 
 <body>
 
     <header>
 
-        <nav class="container__header__nav">
-            <!--LOGO-->
-            <div class="container__header-logo">
-                <img src="img/logoTR.webp" class="logo">
-            </div>
+        <nav class="nav-container">
 
-            <ul class="container__header-li">
+            <img src="img/iconos/logoTR.webp" alt="Logo de Tomas Rivetta" class="image-perfil-inicio">
 
-                <li class="nav-li"><a class="nav-option" href="#ini">Inicio</a></li>
-                <li class="nav-li"><a class="nav-option" href="#about">About</a></li>
-                <li class="nav-li"><a class="nav-option" href="#habilidades">Habilidades</a></li>
-                <li class="nav-li"><a class="nav-option" href="#proyectos">Proyectos</a></li>
-                <li class="nav-li"><a class="nav-option" href="#contacto">Contacto</a></li>
-                <li class="nav-li">
-                    <a class="nav-option" href="https://github.com/TomasRivetta" target="_blank"><img
-                            src="img/iconos/github.svg"></a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-option" href="https://www.linkedin.com/in/tomasrivetta-fullstack/"
-                        target="_blank"><img src="img/iconos/linkedin.svg"></a>
+            <ul class="list-items">
+                <li class="navbar-item"><a class="navbar-item_a" href="#inicio">Home</a></li>
+                <li class="navbar-item"><a class="navbar-item_a" href="">About</a></li>
+                <li class="navbar-item"><a class="navbar-item_a" href="#tecnologias">Tecnologias</a></li>
+                <li class="navbar-item"><a class="navbar-item_a" href="#proyectos">Proyectos</a></li>
+                <li class="navbar-item"><a class="navbar-item_a" href="">Contactos</a></li>
+                <li>
+                    <ul class="list-icons-items">
+                        <li><a href="https://github.com/TomasRivetta" target="_blank" rel="noopener noreferrer"><img
+                                    src="img/iconos/iconoGithubNavBar.svg" alt="Icono de git hub"></a></li>
+                        <li><a href="https://www.linkedin.com/in/tomasrivetta-fullstack/" target="_blank"><img
+                                    src="img/iconos/iconoLinkedin.svg" alt="Icono de Linkedin"></a></li>
+                    </ul>
                 </li>
             </ul>
-
         </nav>
 
     </header>
 
     <main>
 
-        <section class="container__inicio">
-
-            <div class="container__inicio-text">
-
-                <h2 class="text-presentacion">
-                    <p>Hola &#128075;,</p>
-                    <p>Mi nombre es </p>
-                    <p class="letra-presentacion"> Tomas Rivetta.</p>
-
-                    <p class="text-title">Full Stack Developer<span>&#160;</span></p>
-
-                </h2>
+        <section class="container-inicio" id="inicio">
+            <div class="container-inicio__presentacion">
+                <h1>Hola👋,<br> mi nombre es <p class="nombre">Tomas Rivetta</p> Construyo cosas para web</h1>
             </div>
-
-            <div class="container__inicio-img">
-                <img class="img-perfil" src="./img/fotoPerfil.webp" alt="foto perfil de Tomas Rivetta">
+            <div>
+                <img src="img/imagePerfil/fotoPerfil.webp" alt="Imagen de Tomas Rivetta" class="image-perfil">
             </div>
-
         </section>
 
-        <section class="container__about_me" id="about">
+        <section class="container-tecnologias" id="tecnologias">
+            <div class="container-tecnologias__titulo">
+                <h2>Mi Stack Tecnologico</h2>
+            </div>
+            <div class="container-tecnologias__items">
 
-            <div class="about-me">
-                <h2 class="title__about_me">About me</h2>
+                <ul class="list-tecnologias">
+                    <li><img src="img/iconos/iconoHtml.svg" alt="Icono HTML"></li>
+                    <li><img src="img/iconos/iconoCss.svg" alt="Icono CSS"></li>
+                    <li><img src="img/iconos/iconoJavaScript.svg" alt="Icono JavaScript"></li>
+                    <li><img src="img/iconos/iconoBootstrap.svg" alt="icono Bootstrap"></li>
+                    <li><img src="img/iconos/iconoGit.svg" alt="Icono Git"></li>
+                </ul>
+                <ul class="list-tecnologias">
+                    <li><img src="img/iconos/iconoGithub.svg" alt="Icono Github"></li>
+                    <li><img src="img/iconos/iconoVSCode.svg" alt="Icono Visual Studio Code"></li>
+                    <li><img src="img/iconos/iconoC-sharp.svg" alt="Icono C-SHARP"></li>
+                    <li><img src="img/iconos/iconoJava.svg" alt="Icono Java"></li>
+                    <li><img src="img/iconos/icono-microsoft-sql-server-.svg" alt="Icono microsoft sql server"></li>
+                </ul>
 
-                <p class="about_me-text">
-                    Actualmente me encuentro estudiando la Tecnicatura en Programacion en la UTN FRC. Me considero una
-                    persona proactiva que se adapta a las distintas situaciones que se presentan. En mi proceso de
-                    Developer👨‍💻,
-                    estoy aprendiendo lo grandioso que es trabajar en equipo y compartir ideas con otros.
-                    <br>
-                    En mis tiempos libres, practico programación💻 realizando mini proyectos para poder lograr
-                    reforzar lo aprendido, amo el futbol⚽ deporte que practico actualmente, me encanta leer
-                    libros📚 y los fines de semana salgo a caminar.
-                </p>
 
-                <a download="TomasRivetta-CV" href="cv/TomasRivetta-Curriculum.pdf">
-                    <button class="container-button-cv">
-                        <div class="boton-descarga">
+            </div>
+        </section>
 
-                            <img class="" src="img/iconos/curriculum-vitae.png">
-                            <p class="">Descargar CV</p>
+        <section class="container-proyectos" id="proyectos">
+            <div class="container-proyectos__titulo">
+                <h2>Mis Proyectos</h2>
+            </div>
 
+            <div class="container__projects">
+
+                <section class="articles">
+
+                    <article>
+                        <div class="article-wrapper">
+                            <figure>
+                                <img src="img/proyectos_captura/enProgreso.png" alt="screen To Do" />
+                            </figure>
+                            <div class="article-body">
+                                <h2>Lorem ipsum</h2>
+                                <p class="descripcion-project">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt?
+                                    Numquam et saepe nostrum mollitia enim iusto deserunt veniam est eveniet.
+                                    Voluptate, enim quas doloribus modi impedit exercitationem cumque voluptatibus.
+                                </p>
+
+                                <p class="tecnologias-project">Tech stack: Quisquam, deserunt</p>
+
+                                <div class="enlaces-project">
+                                    <a class="proyectos__boton--texto" href="" target="_blank"><img
+                                            class="img-icon-project" src="img/iconos/icon_link-chain.svg"
+                                            alt="Icono clip">-Web demo</a>
+                                    <a class="proyectos__boton--texto" href="" target="_blank"><img
+                                            class="img-icon-project" src="img/iconos/icon_github-fill.svg"
+                                            alt="Icono git hub">-Repositorio</a>
+                                </div>
+                            </div>
                         </div>
-                    </button>
-                </a>
+                    </article>
 
-            </div>
+                    <article>
+                        <div class="article-wrapper">
+                            <figure>
+                                <img src="img/proyectos_captura/enProgreso.png" alt="screen To Do" />
+                            </figure>
+                            <div class="article-body">
+                                <h2>Lorem ipsum</h2>
+                                <p class="descripcion-project">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt?
+                                    Numquam et saepe nostrum mollitia enim iusto deserunt veniam est eveniet.
+                                    Voluptate, enim quas doloribus modi impedit exercitationem cumque voluptatibus.
+                                </p>
 
-            <div class="educacion">
-                <h2 class="title__education">Educacion</h2>
+                                <p class="tecnologias-project">Tech stack: Quisquam, deserunt</p>
 
-                <div class="educacion-text">
-                    <ul class="educacion-list">
-                        <li>Tecnicatura Universitaria en Programacion</li>
-                        <li>Curso de C#</li>
-                        <li>Curso de Python</li>
-                    </ul>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="container__skills_tecnologicas" id="habilidades">
-            <div class="skills">
-                <h2 class="title__skills">Mi Stack Tecnologico</h2>
-
-                <div class="">
-                    <ul class="habilidades__container_item">
-
-                        <li class="habilidades_item habilidades_item--html">
-
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-html-5.svg" alt="Icono HTML-5">
-                            <a class="habilidades_item_titulo" href="https://developer.mozilla.org/es/docs/Web/HTML"
-                                target="_blank">HTML</a>
-
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--css">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-css3.svg" alt="Icono CSS">
-                            <a class="habilidades_item_titulo" href="https://developer.mozilla.org/es/docs/Web/CSS"
-                                target="_blank">CSS</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--javaScript">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-javascript.svg"
-                                alt="Icono JavaScript">
-                            <a class="habilidades_item_titulo"
-                                href="https://developer.mozilla.org/es/docs/Web/JavaScript"
-                                target="_blank">JavaScript</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--git">
-                            <img class="habilidades_item_imagen" src="img/iconos/Node.js_logo.svg" alt="Icono node js">
-                            <a class="habilidades_item_titulo" href="https://nodejs.org/en" target="_blank">Node JS</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--git">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-git.svg" alt="Icono GIT">
-                            <a class="habilidades_item_titulo" href="https://es.wikipedia.org/wiki/Git"
-                                target="_blank">GIT</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--cSharp">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-c-sharp-logo.svg"
-                                alt="Icono CSharp">
-                            <a class="habilidades_item_titulo" href="https://es.wikipedia.org/wiki/C_Sharp"
-                                target="_blank">CSharp</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--net">
-                            <img class="habilidades_item_imagen" src="img/iconos/NET_Core_Logo.png" alt="Icono .NET">
-                            <a class="habilidades_item_titulo" href="https://learn.microsoft.com/es-es/dotnet/welcome"
-                                target="_blank">.NET</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--sqlServer">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-microsoft-sql-server.svg"
-                                alt="Icono SqlServer">
-                            <a class="habilidades_item_titulo" href="https://es.wikipedia.org/wiki/Microsoft_SQL_Server"
-                                target="_blank">SqlServer</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--postman">
-                            <img class="habilidades_item_imagen" src="img/iconos/postmanLogo.svg" alt="Icono Postman">
-                            <a class="habilidades_item_titulo" href="https://dominicode.com/postman-tutorial-espanol/"
-                                target="_blank">Postman</a>
-                        </li>
-
-
-
-                        <li class="habilidades_item habilidades_item--figma">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-figma.svg" alt="Icono FIGMA">
-                            <a class="habilidades_item_titulo" href="www.figma.com" target="_blank">Figma</a>
-                        </li>
-
-                        <!-- <li class="habilidades_item habilidades_item--python">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-python.svg" alt="Icono Python">
-                            <a class="habilidades_item_titulo"
-                                href="https://developer.mozilla.org/es/docs/Glossary/Python" target="_blank">Python</a>
-                        </li>
-
-                        <li class="habilidades_item habilidades_item--django">
-                            <img class="habilidades_item_imagen" src="img/iconos/icons8-django.svg" alt="Icono Django">
-                            <a class="habilidades_item_titulo"
-                                href="https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Introduction"
-                                target="_blank">Django</a>
-                        </li> -->
-
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="container__proyectos" id="proyectos">
-
-            <div>
-                <h2 class="title__proyectos">Proyectos</h2>
-
-                <div class="container__projects">
-
-                    <section class="articles">
-
-                        <article>
-                            <div class="article-wrapper">
-                                <figure>
-                                    <img src="img/proyectos_captura/enProgreso.png" alt="screen To Do" />
-                                </figure>
-                                <div class="article-body">
-                                    <h2>Lorem ipsum</h2>
-                                    <p class="descripcion-project">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt?
-                                        Numquam et saepe nostrum mollitia enim iusto deserunt veniam est eveniet.
-                                        Voluptate, enim quas doloribus modi impedit exercitationem cumque voluptatibus.
-                                    </p>
-
-                                    <p class="tecnologias-project">Tech stack: Quisquam, deserunt</p>
-
-                                    <div class="enlaces-project">
-                                        <a class="proyectos__boton--texto" href="" target="_blank"><img
-                                                class="img-icon-project" src="img/iconos/akar-icons_link-chain.svg"
-                                                alt="Icono clip">-Web demo</a>
-                                        <a class="proyectos__boton--texto" href="" target="_blank"><img
-                                                class="img-icon-project" src="img/iconos/akar-icons_github-fill.svg"
-                                                alt="Icono git hub">-Repositorio</a>
-                                    </div>
+                                <div class="enlaces-project">
+                                    <a class="proyectos__boton--texto" href="" target="_blank"><img
+                                            class="img-icon-project" src="img/iconos/icon_link-chain.svg"
+                                            alt="Icono clip">-Web demo</a>
+                                    <a class="proyectos__boton--texto" href="" target="_blank"><img
+                                            class="img-icon-project" src="img/iconos/icon_github-fill.svg"
+                                            alt="Icono git hub">-Repositorio</a>
                                 </div>
                             </div>
-                        </article>
+                        </div>
+                    </article>
 
-                        <article>
-                            <div class="article-wrapper">
-                                <figure>
-                                    <img src="img/proyectos_captura/enProgreso.png" alt="screen To Do" />
-                                </figure>
-                                <div class="article-body">
-                                    <h2>Lorem ipsum</h2>
-                                    <p class="descripcion-project">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt?
-                                        Numquam et saepe nostrum mollitia enim iusto deserunt veniam est eveniet.
-                                        Voluptate, enim quas doloribus modi impedit exercitationem cumque voluptatibus.
-                                    </p>
+                    <article>
+                        <div class="article-wrapper">
+                            <figure>
+                                <img src="img/proyectos_captura/enProgreso.png" alt="screen To Do" />
+                            </figure>
+                            <div class="article-body">
+                                <h2>Lorem ipsum</h2>
+                                <p class="descripcion-project">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt?
+                                    Numquam et saepe nostrum mollitia enim iusto deserunt veniam est eveniet.
+                                    Voluptate, enim quas doloribus modi impedit exercitationem cumque voluptatibus.
+                                </p>
 
-                                    <p class="tecnologias-project">Tech stack: Quisquam, deserunt</p>
+                                <p class="tecnologias-project">Tech stack: Quisquam, deserunt</p>
 
-                                    <div class="enlaces-project">
-                                        <a class="proyectos__boton--texto" href="" target="_blank"><img
-                                                class="img-icon-project" src="img/iconos/akar-icons_link-chain.svg"
-                                                alt="Icono clip">-Web demo</a>
-                                        <a class="proyectos__boton--texto" href="" target="_blank"><img
-                                                class="img-icon-project" src="img/iconos/akar-icons_github-fill.svg"
-                                                alt="Icono git hub">-Repositorio</a>
-                                    </div>
+                                <div class="enlaces-project">
+                                    <a class="proyectos__boton--texto" href="" target="_blank"><img
+                                            class="img-icon-project" src="img/iconos/icon_link-chain.svg"
+                                            alt="Icono clip">-Web demo</a>
+                                    <a class="proyectos__boton--texto" href="" target="_blank"><img
+                                            class="img-icon-project" src="img/iconos/icon_github-fill.svg"
+                                            alt="Icono git hub">-Repositorio</a>
                                 </div>
                             </div>
-                        </article>
+                        </div>
+                    </article>
 
-                        <article>
-                            <div class="article-wrapper">
-                                <figure>
-                                    <img src="img/proyectos_captura/enProgreso.png" alt="screen To Do" />
-                                </figure>
-                                <div class="article-body">
-                                    <h2>Lorem ipsum</h2>
-                                    <p class="descripcion-project">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, deserunt?
-                                        Numquam et saepe nostrum mollitia enim iusto deserunt veniam est eveniet.
-                                        Voluptate, enim quas doloribus modi impedit exercitationem cumque voluptatibus.
-                                    </p>
+                </section>
 
-                                    <p class="tecnologias-project">Tech stack: Quisquam, deserunt</p>
-
-                                    <div class="enlaces-project">
-                                        <a class="proyectos__boton--texto" href="" target="_blank"><img
-                                                class="img-icon-project" src="img/iconos/akar-icons_link-chain.svg"
-                                                alt="Icono clip">-Web demo</a>
-                                        <a class="proyectos__boton--texto" href="" target="_blank"><img
-                                                class="img-icon-project" src="img/iconos/akar-icons_github-fill.svg"
-                                                alt="Icono git hub">-Repositorio</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                    </section>
-
-                </div>
             </div>
 
-        </section>
-
-        <section class="container__contacto" id="contacto">
-            <div>
-                <h2 class="title__contacto">Contacto</h2>
-
-                <div>
-
-                </div>
-            </div>
         </section>
 
     </main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <script defer src="js/app.js"></script>
 </body>
