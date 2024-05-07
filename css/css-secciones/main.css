@@ -3,12 +3,14 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  height: 70vh;
+  height: calc(100vh - (10px + 20px));
 }
 
 .container-inicio__presentacion,
+.container-sobreMi__titulo,
 .container-tecnologias__titulo,
-.container-proyectos__titulo {
+.container-proyectos__titulo,
+.container-contacto__titulo {
   font-size: 50px;
   font-weight: bold;
 }
@@ -22,17 +24,69 @@
   border-radius: 100%;
 }
 
-.container-tecnologias__titulo,
-.container-proyectos__titulo {
+.container-sobreMi-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-sobreMi__informacion,
+.container-sobreMi__boton_cv {
+  margin-top: 10%;
+  width: 50%;
+  text-align: justify;
+}
+
+.container-sobreMi__boton_cv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-cv{
+  padding: 5%;
+  border: 5px solid #5271ff;
+  background-color: #050505;
+  border-radius: 2%;
+}
+
+.boton-cv-descarga{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sobreMi__informacion {
+  font-size: 25px;
+}
+
+.container-tecnologias__titulo {
+  margin-top: 10%;
   text-align: center;
+}
+
+.container-sobreMi__titulo,
+.container-proyectos__titulo,
+.container-contacto__titulo {
+  text-align: center;
+  margin-top: 2%;
 }
 
 .container-proyectos__titulo {
   margin-top: 10%;
 }
 
-.container-tecnologias__items,
-.container-proyectos__items {
+.container-tecnologias__items {
+  margin-top: 10%;
+}
+
+.container-proyectos__items,
+.container-contacto__titulo {
   margin-top: 10%;
 }
 
@@ -46,10 +100,10 @@
 
 .container__projects {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .container__project {
